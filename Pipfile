@@ -1,20 +1,15 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 numpy = "*"
 sklearn = "*"
 scipy = "*"
 pandas = "*"
 jupyter = "*"
-cltk = {git = "https://github.com/cltk/cltk.git", editable = true}
-
+cltk = {editable = true, git = "https://github.com/diyclassics/cltk.git", ref = "stop-update"}
 
 [dev-packages]
-
 jupyter = "*"
