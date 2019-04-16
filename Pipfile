@@ -9,7 +9,7 @@ sklearn = "*"
 scipy = "*"
 pandas = "*"
 jupyter = "*"
-cltk = {editable = true, ref = "stop-update", git = "https://github.com/diyclassics/cltk.git"}
+cltk = "==0.1.99"
 
 [dev-packages]
 jupyter = "*"

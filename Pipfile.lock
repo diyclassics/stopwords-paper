@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "cc8aee7ac21db108a3467c6ce8faa7aea2087eb12974d96cf743adb6064bc319"
+            "sha256": "7fb40f9e61aa7ba34565ceff6125a6ca6aeea8d0117db212d4e1b9868ebc4d9b"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -44,9 +44,11 @@
             "version": "==3.1.0"
         },
         "cltk": {
-            "editable": true,
-            "git": "https://github.com/diyclassics/cltk.git",
-            "ref": "7cde070f639a6e533020f73fd720783b4036d430"
+            "hashes": [
+                "sha256:fe2aab4e461a97527730369a4a8ba24b2d8d1d33bd4aecc8f34bccd3b56edfc9"
+            ],
+            "index": "pypi",
+            "version": "==0.1.99"
         },
         "decorator": {
             "hashes": [
